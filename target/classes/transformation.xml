@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="requiredschemaxsl.xsl"?>	
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping https://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+    </configuration>
+    <mapping>
+        <class-a>dummyjsonschema.Dummyjsonschema</class-a>
+        <class-b>generated_1626250296029.ABCOrder</class-b>
+        <field>
+            <a>message</a>
+            <b>header.message</b>
+        </field>
+        <field>
+            <a>status</a>
+            <b>header.status</b>
+        </field>
+        <field>
+            <a>data</a>
+            <b>dataItems.item</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>dummyjsonschema.Datum</class-a>
+        <class-b>generated_1626250296029.ABCOrder$DataItems$Item</class-b>
+        <field>
+            <a>employeeSalary</a>
+            <b>employeeSalary</b>
+        </field>
+        <field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>profileImage</a>
+            <b>profileImage</b>
+        </field>
+        <field>
+            <a>employeeAge</a>
+            <b>employeeAge</b>
+        </field>
+        <field>
+            <a>employeeName</a>
+            <b>employeeName</b>
+        </field>
+    </mapping>
+</mappings>

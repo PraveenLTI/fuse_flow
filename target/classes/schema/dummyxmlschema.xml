@@ -1,0 +1,27 @@
+<ABCOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://java.sun.com">
+<?xml-stylesheet type="text/xsl" href="requiredschemaxsl.xsl"?>	
+
+<header>
+<status>success</status>
+<message>Successfully! All records has been fetched.</message>
+</header>
+
+<data-items>
+	<item id="1">
+	<employee_name>Tiger Nixon</employee_name>
+	<employee_salary>320800</employee_salary>
+	<employee_age>61</employee_age>
+	<profile_image></profile_image>
+	</item>
+	<item id="2">
+	<employee_name>Tiger </employee_name>
+	<employee_salary>32</employee_salary>
+	<employee_age>611</employee_age>
+	<profile_image></profile_image>
+	</item>
+</data-items>
+</ABCOrder>
+
+
+
+
